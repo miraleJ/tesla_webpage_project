@@ -11,3 +11,23 @@
     padding: 0px;
     margin: 0px;
 }
+#page1 {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    min-height: 763.556px;
+    height: 100%;
+    width: 100%;
+    min-width: 480px;
+}
+#imgPage1 > img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /* min-height: 826.667px; */
+    /* height: 763.556px;
+    min-height: 763.556px; */
+    min-height: 763.556px;
+    width: 100%;
+    min-width: 480px;
+}
