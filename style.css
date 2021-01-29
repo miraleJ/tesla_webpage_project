@@ -25,9 +25,42 @@
     top: 0px;
     left: 0px;
     /* min-height: 826.667px; */
-    /* height: 763.556px;
-    min-height: 763.556px; */
+    height: 763.556px;
+    min-height: 763.556px;
     min-height: 763.556px;
     width: 100%;
     min-width: 480px;
+    /* visibility: hidden; */
+    z-index: -10;
+}
+header {
+    position: relative;
+    display: block;
+    padding-top: 13px;
+    padding-left: 20px;
+    padding-right: 5px;
+    z-index: 1;
+}
+#teslaLogo > a {
+    font-family: "Tesla";
+    list-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+#tesla-logo {
+    position: relative;
+    
+}
+#otherCarsNav {
+    position: relative;
+    left: auto;
+    right: auto;
+    display: inline;
+}
+.ul {
+    list-style-type: none;
+    display: inline;
 }

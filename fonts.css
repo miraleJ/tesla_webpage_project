@@ -18,3 +18,10 @@
   font-weight: 700;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "Tesla";
+  src: url(../fonts/TESLA.ttf) format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
