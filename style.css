@@ -40,6 +40,7 @@
     padding-left: 20px;
     padding-right: 5px;
     z-index: 1;
+    text-align: center;
     /* display: inline; */
 }
 #teslaLogo {
@@ -55,14 +56,11 @@
     line-height: 18px;
     color: #fff;
     text-decoration: none;
+    position: absolute;
+    left: 0px;
 }
 #otherCarsNav {
-    /* position: relative; */
-    /* margin-left: auto;
-    margin-right: auto; */
-    align-content: center;
-    align-items: center;
-    justify-content: center;
+    
     display: inline;
 }
 #nav-list {
