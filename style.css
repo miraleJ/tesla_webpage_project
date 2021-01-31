@@ -11,14 +11,16 @@
     padding: 0px;
     margin: 0px;
 }
-#page1 {
+.page {
     position: relative;
     top: 0px;
     left: 0px;
     min-height: 763.556px;
-    height: 100%;
-    width: 100%;
+    /* height: 100%;
+    width: 100%; */
     min-width: 480px;
+    display: block;
+    
 }
 #imgPage1 > img {
     position: absolute;
@@ -39,7 +41,7 @@
     padding-top: 13px;
     padding-left: 20px;
     padding-right: 5px;
-    z-index: 1;
+    /* z-index: 1; */
     text-align: center;
     /* display: inline; */
 }
@@ -98,4 +100,96 @@ a {
     color: #fff;
     margin-left: 10px;
     margin-right: 10px;
+}
+#model3header {
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    /* padding: 8%; */
+    position: relative;
+    top: 95px;
+}
+#info-bar {
+    position: relative;
+    top: 500px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.info-item {
+    color: #fff;
+    list-style-type: none;
+    display: inline-block;
+    /* width: 160px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+}
+.line {
+    display: inline-block;
+    width: 1px;
+    
+}
+.info-container {
+    display: inline-block;
+    position: relative;
+    width: 160px;
+}
+.info-title {
+    display: inline;
+    color: #fff;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+
+}
+.info-description {
+    display: inline;
+    color: #fff;
+}
+#s {
+    color: #fff;
+ 
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+}
+#mi {
+    color: #fff;
+ 
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+#down-arrow {
+    color: #fff;
+    font-weight: 500;
+    font-size: 24px;
+    position: absolute;
+    text-align: center;
+}
+#leftSide2 {
+    height: 763.556px;
+    width: 32%;
+    align-items: center;
+    display: inline-block;
+}
+#rightSide2 {
+    background-color: #f2f2f2;
+    height: 763.556px;
+    width: 67%;
+    align-items: center;
+    display: inline-block;
+}
+#rightSide2 > img {
+    
+    /* min-height: 826.667px; */
+    
+    /* min-height: 763.556px; */
+    width: 100%;
+    /* min-width: 480px; */
+    /* visibility: hidden; */
+    z-index: -10;
 }
